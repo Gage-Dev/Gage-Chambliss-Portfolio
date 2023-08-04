@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Plus+Jakarta+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Plus Jakarta Sans';
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+  list-style-type: none;
+  padding: 4px;
+  margin: 8px;
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffff;
+  transition: width 0.2s ease;
+}
+
+.nav-links a:hover::before {
+  width: 100%; 
+}
+
+h1 {
+  color: #ffff;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffff;
+  width: 60%;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 100px;
+}
+
+.stack-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stack-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+#cert {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+/* .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+} */
+
+/* .stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+} */
+
+/* .cert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+} */
+
+#html, #css, #js, #react, #boot, #tail {
+  margin-right: 10px;
+}
+
+/* #cert-img {
+  width: 50%;
+  border-radius: 25px;
+} */
+
+/* .cert {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+/* @keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+} */

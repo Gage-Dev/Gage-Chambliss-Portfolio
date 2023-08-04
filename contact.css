@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Plus+Jakarta+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Plus Jakarta Sans';
+  color: #ffff;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+  list-style-type: none;
+  padding: 4px;
+  margin: 8px;
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ffff;
+  transition: width 0.2s ease;
+}
+
+.nav-links a:hover::before {
+  width: 100%; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  color: #ffff;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  width: 800px;
+}
+
+form input, form textarea {
+  border: 0;
+  margin: 15px 0;
+  padding: 20px;
+  outline: none;
+  font-size: 20px;
+}
+
+button {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 15px 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background-color: #4285F4;
+}
