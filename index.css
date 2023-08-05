@@ -76,42 +76,18 @@ header {
   margin-bottom: 40px;
   color: #ffff;
   letter-spacing: -10px;
-  transition: transform 0.3s ease;
 }
 
-/* .G, .a, .g {
+.G, .a, .g {
   display: inline-block;
   transition: transform 0.3s ease;
-  cursor: pointer;
-} */
+}
 
 .e {
   display: inline-block;
   transform: rotate(-23deg);
-  margin-left: -5px;
+  margin-left: -4px;
 }
-
-/* .G:hover {
-  color: #4285F4;
-  transition: transform 0.3s ease;
-  animation: jiggle 0.4s;
-}
-
-.a:nth-child(2):hover {
-  color: #DB4437;
-  animation: jiggle 0.4s ease;
-}
-
-.g:nth-child(3):hover {
-  color: #F4B400;
-  animation: jiggle 0.4s;
-}
-
-.e:nth-child(4):hover {
-  color: #0F9D58;
-  animation: jiggle 0.4s;
-  transform: rotate(-23deg);
-} */
 
 .input-search input {
   padding: 15px;
@@ -208,51 +184,37 @@ footer {
   transform: scale(1.3);
 }
 
-@keyframes Gage {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(0); }
-  50% { transform: translateX(0); }
-  75% { transform: translateX(0); }
-  100% { transform: translateX(0); }
+
+
+@keyframes jitterAnimation {
+  0% { transform: translateX(0) rotate(0); }
+  25% { transform: translateX(-5px) rotate(-10deg); }
+  50% { transform: translateX(5px) rotate(10deg); }
+  75% { transform: translateX(-2px) rotate(-5deg); }
+  100% { transform: translateX(0) rotate(0); }
 }
 
-@keyframes changeColorG {
-  0%, 100% { color: #4285F4 }
+.Gage {
+  animation-name: jitter;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
 }
 
-@keyframes changeColora {
-  0%, 100% { color: #DB4437 }
+.Gage span:nth-child(1) {
+  color: #4285F4;
 }
 
-@keyframes changeColorg {
-  0%, 100% { color: #F4B400 }
+.Gage span:nth-child(2) {
+  color: #DB4437;
 }
 
-@keyframes changeColore {
-  0%, 100% { color: #0F9D58 }
+.Gage span:nth-child(3) {
+  color: #F4B400;
 }
 
-.G, .a, .g, .e {
-  animation: wiggle 1s ease-in-out infinite;
+.Gage span:nth-child(4) {
+  color: #0F9D58;
 }
-
-@keyframes jiggle {
-  0% {
-    transform: rotateZ(0deg);
-  }
-  25% {
-    transform: rotateZ(-10deg);
-  }
-  50% {
-    transform: rotateZ(10deg);
-  }
-  75% {
-    transform: rotateZ(-10deg);
-  }
-  100% {
-    transform: rotateZ(0deg);
-  }
-} 
 
 @keyframes wave {
   0%, 20%, 60%, 100% {
