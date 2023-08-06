@@ -68,6 +68,7 @@ h1 {
 
 h2 {
   color: #ffff;
+  text-align: left;
   width: 60%;
   line-height: 1.5;
   margin: 0 auto;
@@ -77,6 +78,26 @@ h2 {
 }
 
 .container {
+  text-align: center;
+}
+
+.image-container {
+  margin-top: 45px;
+}
+
+.small-image {
+  width: 100px;
+  margin: 40px;
+}
+
+.large-image {
+  width: 60%;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  border-radius: 25px;
+}
+
+/* .container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,62 +105,30 @@ h2 {
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  gap: 100px;
-}
-
-.stack-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.stack-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-}
-
-#cert {
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
-}
-
-/* .heading {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 80px;
 } */
 
 /* .stack {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
 } */
 
 /* .cert {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-} */
-
-#html, #css, #js, #react, #boot, #tail {
-  margin-right: 10px;
-}
-
-/* #cert-img {
-  width: 50%;
+  height: auto;
   border-radius: 25px;
 } */
 
-/* .cert {
+/* .cert-image {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+}
+
+#html, #css, #js, #react, #boot, #tail {
+  margin: 45px;
 } */
 
 /* @keyframes fadeIn {

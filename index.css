@@ -103,7 +103,7 @@ header {
   position: absolute;
   top: 43%;
   transform: translateY(-50%);
-  animation: wave 2s infinite;
+  animation: wave 1.5s infinite;
 }
 
 .emoji-icon {
@@ -194,7 +194,7 @@ footer {
 
 .Gage {
   animation-name: jump;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 
@@ -219,7 +219,7 @@ footer {
     transform: rotate(0deg);
   }
   40% {
-    transform: rotate(30deg);
+    transform: rotate(20deg);
   }
   80% {
     transform: rotate(15deg);
