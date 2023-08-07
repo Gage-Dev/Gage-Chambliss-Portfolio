@@ -94,8 +94,7 @@ form {
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 90%;
-  width: 800px;
+  width: 50%;
 }
 
 form input, form textarea {
