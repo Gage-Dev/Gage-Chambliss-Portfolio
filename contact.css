@@ -121,3 +121,9 @@ button {
 button:hover {
   background-color: #0F9D58;
 }
+
+.portrait {
+  width: 30%;
+  border-radius: 10px;
+  transform: perspective(800px) rotateY(-8deg);
+}

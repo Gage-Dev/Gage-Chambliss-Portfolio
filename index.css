@@ -106,7 +106,14 @@ header {
   margin-left: -4px;
 }
 
-.input-search input {
+.line {
+  width: 35%;
+  background-color: #ffff;
+  height: 6px;
+  border-radius: 5px;
+}
+
+/* .input-search input {
   padding: 15px;
   width: 600px;
   font-size: 16px;
@@ -126,7 +133,7 @@ header {
 .emoji-icon {
   font-size: 25px;
   margin-left: 20px;
-}
+} */
 
 .proj-container {
   max-width: 550px;
@@ -189,7 +196,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 110px;
+  margin-top: 140px;
 }
 
 #gmail, #linkedin, #github {
