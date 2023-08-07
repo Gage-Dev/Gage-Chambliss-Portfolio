@@ -127,3 +127,20 @@ button:hover {
   border-radius: 10px;
   transform: perspective(800px) rotateY(-8deg);
 }
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#gmail, #linkedin, #github {
+  margin: 10px;
+}
+
+#gmail:hover, #linkedin:hover, #github:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.3);
+}
