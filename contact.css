@@ -132,11 +132,19 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.line {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #ffff;
+  height: 3px;
+  border-radius: 5px;
   margin-top: 80px;
 }
 
 #gmail, #linkedin, #github {
-  margin: 10px;
+  margin: 20px;
 }
 
 #gmail:hover, #linkedin:hover, #github:hover {

@@ -107,7 +107,7 @@ header {
 }
 
 .line {
-  width: 35%;
+  width: 550px;
   background-color: #ffff;
   height: 6px;
   border-radius: 5px;
@@ -178,7 +178,7 @@ footer {
 }
 
 #gmail, #linkedin, #github {
-  margin: 10px;
+  margin: 20px;
 }
 
 #gmail:hover, #linkedin:hover, #github:hover {
@@ -237,5 +237,9 @@ footer {
     max-width: 480px;
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+
+  .line {
+    max-width: 480px;
   }
 }

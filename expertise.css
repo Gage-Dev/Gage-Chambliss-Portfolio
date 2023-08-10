@@ -98,6 +98,8 @@ h2 {
 }
 
 .image-container {
+  margin: 0 auto;
+  width: 70%;
   margin-top: 45px;
 }
 
@@ -113,19 +115,34 @@ h2 {
   border-radius: 25px;
 }
 
+.line {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #ffff;
+  height: 3px;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+
 footer {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 #gmail, #linkedin, #github {
-  margin: 10px;
+  margin: 20px;
 }
 
 #gmail:hover, #linkedin:hover, #github:hover {
   transition: transform 0.3s ease;
   transform: scale(1.3);
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 85%;
+  }
 }
