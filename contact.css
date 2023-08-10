@@ -82,6 +82,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -170,5 +171,23 @@ footer {
   100% {
    transform: scale(1);
    opacity: 1;
+  }
+ }
+
+ @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  form {
+    width: 70%;
+  }
+
+  .portrait {
+    width: 60%;
+    flex-basis: 100%;
+    order: 2;
   }
  }
