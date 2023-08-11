@@ -131,7 +131,7 @@ header {
   transition: transform 0.3s ease;
 }
 
-.todo, .ecom, .api, .news, .ping, .card {
+.couchn, .lodge, .modrn, .gtv, .gtunes, .wheelz {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,13 +162,9 @@ header {
   margin-top: 55px;
 }
 
-.todo:hover, .ecom:hover, .api:hover, .news:hover, .ping:hover, .card:hover {
+.couchn:hover, .lodge:hover, .gtv:hover, .gtunes:hover, .wheelz:hover, .modrn:hover {
   transition: transform 0.3s ease;
   transform: scale(1.3);
-}
-
-.fa-house, .fa-shirt, .fa-tv, .fa-couch, .fa-car, .fa-music  {
- margin-top: 20px;
 }
 
 footer {

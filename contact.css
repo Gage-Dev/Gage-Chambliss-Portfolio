@@ -108,6 +108,7 @@ form input, form textarea {
   padding: 20px;
   outline: none;
   font-size: 20px;
+  border-radius: 5px;
 }
 
 button {
@@ -119,6 +120,7 @@ button {
   cursor: pointer;
   font-size: 20px;
   margin-bottom: 50px;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
