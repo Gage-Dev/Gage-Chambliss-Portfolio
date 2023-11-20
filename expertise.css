@@ -79,7 +79,7 @@ header {
 
 h1 {
   color: #ffff;
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 30px;
   font-size: 50px;
   text-align: center;
@@ -168,5 +168,9 @@ footer {
 @media (max-width: 768px) {
   .image-container {
     width: 85%;
+  }
+
+  h2, .large-image {
+    width: 70%;
   }
 }
