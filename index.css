@@ -195,22 +195,6 @@ footer {
   animation: bounce 1s;
 }
 
-/* .Gage span:nth-child(1) {
-  color: #4285F4;
-}
-
-.Gage span:nth-child(2) {
-  color: #DB4437;
-}
-
-.Gage span:nth-child(3) {
-  color: #F4B400;
-}
-
-.Gage span:nth-child(4) {
-  color: #0F9D58;
-} */
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -222,17 +206,17 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .input-search input {
-    width: 480px;
+  .Gage {
+    max-width: 300px;
   }
 
   .proj-container {
-    max-width: 480px;
+    max-width: 420px;
     margin: 0 auto;
     margin-bottom: 20px;
   }
 
   .line {
-    max-width: 480px;
+    max-width: 420px;
   }
 }
