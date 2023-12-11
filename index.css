@@ -207,16 +207,16 @@ footer {
 
 @media (max-width: 768px) {
   .Gage {
-    max-width: 300px;
+    max-width: 60%;
   }
 
   .proj-container {
-    max-width: 420px;
+    max-width: 75%;
     margin: 0 auto;
     margin-bottom: 20px;
   }
 
   .line {
-    max-width: 420px;
+    max-width: 80%;
   }
 }
