@@ -123,7 +123,7 @@ h2 {
 
 .line {
   margin: 0 auto;
-  width: 400px;
+  width: 30%;
   background-color: #ffff;
   height: 3px;
   border-radius: 5px;
@@ -171,5 +171,9 @@ footer {
 
   h2, .large-image {
     width: 70%;
+  }
+
+  .line {
+    width: 30%;
   }
 }
