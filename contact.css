@@ -191,7 +191,7 @@ footer {
 
  @media (max-width: 768px) {
   body {
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
   .container {

@@ -207,12 +207,11 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
   .Gage {
     max-width: 80%;
-    letter-spacing: -10;
   }
 
   .proj-container {
