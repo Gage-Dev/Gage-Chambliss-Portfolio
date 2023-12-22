@@ -209,9 +209,10 @@ footer {
   body {
     font-family: 'Plus Jakarta Sans';
   }
-  
+
   .Gage {
     max-width: 80%;
+    letter-spacing: -10;
   }
 
   .proj-container {
