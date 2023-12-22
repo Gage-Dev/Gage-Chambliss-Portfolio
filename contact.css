@@ -200,6 +200,10 @@ footer {
     width: 70%;
   }
 
+  button {
+    width: 80%;
+  }
+
   .portrait {
     width: 60%;
     flex-basis: 100%;
