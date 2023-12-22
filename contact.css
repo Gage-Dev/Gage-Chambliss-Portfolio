@@ -190,6 +190,10 @@ footer {
  }
 
  @media (max-width: 768px) {
+  body {
+    font-family: 'Plus Jakarta Sans';
+  }
+
   .container {
     flex-direction: column;
     flex-basis: 100%;

@@ -165,6 +165,10 @@ footer {
  }
 
 @media (max-width: 768px) {
+  body {
+    font-family: 'Plus Jakarta Sans';
+  }
+
   .image-container {
     width: 85%;
   }

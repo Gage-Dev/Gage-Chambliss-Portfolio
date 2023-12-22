@@ -206,6 +206,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    font-family: 'Plus Jakarta Sans';
+  }
+  
   .Gage {
     max-width: 80%;
   }
