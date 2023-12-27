@@ -92,12 +92,12 @@ h2 {
   color: #ffff;
   text-align: left;
   width: 60%;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0 auto;
   padding: 20px;
   border: solid 1px white;
-  border-radius: 20px;
-  letter-spacing: 3px;
+  border-radius: 25px;
+  letter-spacing: 2px;
 }
 
 .container {

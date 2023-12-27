@@ -214,7 +214,8 @@ footer {
     width: 70%;
     flex-basis: 100%;
     order: 2;
-    transform: none;
+    transform-style: preserve-3d;
+    animation: movePerspective 2s ease-in-out infinite alternate;
   }
 
   .line {
