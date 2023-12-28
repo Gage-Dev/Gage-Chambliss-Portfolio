@@ -126,7 +126,7 @@ h2 {
   margin: 0 auto;
   width: 30%;
   background-color: #ffff;
-  height: 3px;
+  height: 2px;
   border-radius: 5px;
   margin-top: 80px;
 }
@@ -241,5 +241,9 @@ footer {
 
   .nav-links.active li {
     margin: 15px 0;
+  }
+
+  .footer-line {
+    height: 1px;
   }
 }
