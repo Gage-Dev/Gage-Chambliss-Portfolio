@@ -258,12 +258,12 @@ footer {
   .nav-links.active {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     position: fixed;
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.8);
+    background-color: rgba(51, 51, 51, 0.7);
     z-index: 999;
   }
 
