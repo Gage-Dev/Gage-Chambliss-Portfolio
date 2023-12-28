@@ -111,7 +111,7 @@ h3 {
 }
 
 .small-image {
-  width: 100px;
+  width: 80px;
   margin: 40px;
 }
 
@@ -212,7 +212,7 @@ footer {
     margin: 5px;
     transition: transform 0.4s ease-in-out;
   }
-  
+
   .burger.active .line:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
