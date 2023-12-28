@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Plus+Jakarta+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Plus+Jakarta+Sans&display=swap'); */
 
 * {
   padding: 0;
@@ -91,23 +91,12 @@ header {
 
 .Gage {
   display: inline-block;
-  width: 300px;
+  width: 200px;
   font-size: 100px;
-  margin-left: 30px;
+  margin-right: 50px;
   margin-bottom: 40px;
   color: #ffff;
-  letter-spacing: -10px;
-}
-
-.G, .a, .g {
-  display: inline-block;
-  transition: transform 0.3s ease;
-}
-
-.e {
-  display: inline-block;
-  transform: rotate(-23deg);
-  margin-left: -4px;
+  letter-spacing: -3px;
 }
 
 .name-line {
@@ -208,12 +197,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-  body {
+  /* body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-  }
+  } */
 
   .Gage {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .proj-container {
