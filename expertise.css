@@ -197,11 +197,11 @@ footer {
 
 @media screen and (max-width: 768px) {
   .nav-links {
-    display: none; /* Hide regular nav links by default on mobile */
+    display: none;
   }
 
   .burger {
-    display: block; /* Display the burger icon */
+    display: block;
     cursor: pointer;
   }
 
@@ -212,8 +212,7 @@ footer {
     margin: 5px;
     transition: transform 0.4s ease-in-out;
   }
-
-  /* Rotate lines to form the 'X' shape when menu is open */
+  
   .burger.active .line:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
   }
@@ -226,7 +225,6 @@ footer {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
-  /* Show the nav links when burger menu is active */
   .nav-links.active {
     display: flex;
     flex-direction: column;
