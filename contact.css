@@ -146,7 +146,7 @@ footer {
   align-items: center;
 }
 
-.line {
+.footer-line {
   margin: 0 auto;
   width: 30%;
   background-color: #ffff;
@@ -218,7 +218,7 @@ footer {
     animation: movePerspective 2s ease-in-out infinite alternate;
   }
 
-  .line {
+  .footer-line {
     width: 55%;
   }
  }
@@ -258,12 +258,12 @@ footer {
   .nav-links.active {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: 60px; /* Adjust as needed */
+    align-items: flex-end;
+    position: fixed;
+    top: 60px;
     left: 0;
     width: 100%;
-    background-color: #333; /* Adjust background color */
+    background-color: rgba(51, 51, 51, 0.8);
     z-index: 999;
   }
 
