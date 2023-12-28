@@ -88,7 +88,7 @@ h1 {
   animation: pulse 1s;
 }
 
-h2 {
+h3 {
   color: #ffff;
   text-align: left;
   width: 60%;
@@ -178,7 +178,7 @@ footer {
     width: 70px;
   }
 
-  h2 {
+  h3 {
     font-size: .9rem;
     line-height: 1.5;
     letter-spacing: 1px;
