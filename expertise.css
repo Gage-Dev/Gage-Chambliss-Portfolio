@@ -106,14 +106,26 @@ h3 {
 }
 
 .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
-  width: 70%;
-  margin-bottom: 40px;
+  width: 60%;
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  padding: 30px;
 }
 
 .small-image {
   width: 80px;
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+figcaption {
+  color: #fff;
+  font-weight: 600;
 }
 
 .certificate {
@@ -162,7 +174,9 @@ footer {
   }
 
   .image-container {
-    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
   }
 
   .small-image {
