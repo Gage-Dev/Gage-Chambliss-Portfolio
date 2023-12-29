@@ -231,6 +231,7 @@ footer {
   .burger {
     display: block;
     cursor: pointer;
+    z-index: 1000;
   }
 
   .burger .line {
@@ -238,7 +239,7 @@ footer {
     height: 3px;
     background-color: #fff;
     margin: 5px;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
   }
 
   .burger.active .line:nth-child(1) {
