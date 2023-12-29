@@ -200,7 +200,8 @@ footer {
   }
 
   .Gage {
-    max-width: 55%;
+    max-width: 50%;
+    letter-spacing: -2px;
   }
 
   .proj-container {
