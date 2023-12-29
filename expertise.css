@@ -81,7 +81,7 @@ header {
 h1 {
   color: #ffff;
   margin-top: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   font-size: 50px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -94,6 +94,7 @@ h3 {
   width: 60%;
   line-height: 1.2;
   margin: 0 auto;
+  margin-bottom: 50px;
   padding: 20px;
   border: solid 1px white;
   border-radius: 25px;
@@ -117,26 +118,24 @@ h3 {
 
 .certificate {
   width: 60%;
-  margin-top: 100px;
-  margin-bottom: 45px;
+  margin-bottom: 100px;
   border-radius: 25px;
 }
 
-.footer-line {
+/* .footer-line {
   margin: 0 auto;
-  width: 30%;
   background-color: #ffff;
   height: 2px;
   border-radius: 5px;
   margin-top: 80px;
-}
+} */
 
 footer {
+  background-color: #333333;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
 }
 
 #gmail, #linkedin, #github {
