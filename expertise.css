@@ -118,8 +118,8 @@ h3 {
 
 .small-image {
   width: 80px;
-  /* margin-left: 50px;
-  margin-right: 50px; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 figcaption {
@@ -177,7 +177,7 @@ footer {
   .image-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
   }
 
   .small-image {
