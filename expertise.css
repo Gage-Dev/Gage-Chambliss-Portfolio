@@ -188,11 +188,13 @@ footer {
   .image-container {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
   }
 
   .small-image {
     width: 70px;
+    margin: 0 auto;
+    margin-top: 50px;
   }
 
   h3 {
