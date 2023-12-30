@@ -211,10 +211,6 @@ footer {
   .certificate {
     width: 75%;
   }
-
-  .footer-line {
-    width: 55%;
-  }
 }
 
 @media screen and (max-width: 768px) {
