@@ -81,7 +81,7 @@ header {
 h1 {
   color: #ffff;
   margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   font-size: 50px;
   text-align: center;
   transition: transform 0.3s ease;
@@ -125,12 +125,12 @@ h3 {
 figcaption {
   color: #fff;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-bottom: 50px;
 }
 
 .certificate {
-  width: 60%;
+  width: 55%;
   margin-bottom: 100px;
   border-radius: 25px;
 }
