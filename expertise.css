@@ -91,7 +91,7 @@ h1 {
 .line-break {
   margin: 0 auto;
   background-color: #fff;
-  height: 1px;
+  height: .5px;
   border-radius: 5px;
   width: 85%;
 }
