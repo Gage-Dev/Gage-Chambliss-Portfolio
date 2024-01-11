@@ -143,6 +143,7 @@ figcaption {
 
 footer {
   background-color: #333333;
+  position: absolute;
   text-align: center;
   display: flex;
   justify-content: center;
