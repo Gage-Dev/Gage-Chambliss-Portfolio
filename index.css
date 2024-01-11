@@ -157,7 +157,7 @@ header {
 }
 
 footer {
-  /* position: fixed; */
+  overflow: auto;
   bottom: 0;
   text-align: center;
   display: flex;
