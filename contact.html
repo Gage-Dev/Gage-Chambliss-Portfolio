@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contact.css" />
     <title>Gage Chambliss</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul class="nav-links">
-              <li><a id="home" href="index.html">Home</a></li>
-              <li><a id="home" href="expertise.html">Expertise</a></li>
-              <li class="active"><a id="contact" href="contact.html">Contact</a></li>
-            </ul>
-            <div class="burger" onclick="toggleMenu()">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </div>
-        </nav>
-      </header>
+      <nav>
+        <ul class="nav-links">
+          <li><a id="home" href="index.html">Home</a></li>
+          <li><a id="home" href="expertise.html">Expertise</a></li>
+          <li class="active">
+            <a id="contact" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
       <h1>Let's Connect</h1>
-    <div class="container">
-      <img class="portrait" src="/Assets/Portrait.jpg">
+      <div class="container">
+        <img class="portrait" src="/Assets/Portrait.jpg" />
         <form id="contact-form">
-            <input type="text" id="name" placeholder="Name">
-            <input type="email" id="email" placeholder="Email">
-            <input type="text" id="phone" placeholder="Phone Number">
-            <textarea id="message" rows="4" placeholder="Message"></textarea>
-            <button type="submit">Submit</button>
+          <input type="text" id="name" placeholder="Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <input type="text" id="phone" placeholder="Phone Number" />
+          <textarea id="message" rows="4" placeholder="Message"></textarea>
+          <button type="submit">Submit</button>
         </form>
-    </div>
+      </div>
+    </main>
     <footer>
-        <a href="mailto:chamblissdev@gmail.com">
-          <img id="gmail" src="/Assets/icons8-gmail.svg">
-        </a>
-        <a href="https://www.linkedin.com/in/gage-chambliss-24546622b/">
-          <img id="linkedin" src="/Assets/icons8-linkedin.svg">
-        </a>
-        <a href="https://github.com/Gage-Dev">
-          <img id="github" src="/Assets/icons8-github.svg">
-        </a>
-      </footer>
-      <script src="script.js"></script>
-</body>
+      <a href="mailto:chamblissdev@gmail.com">
+        <img id="gmail" src="/Assets/icons8-gmail.svg" />
+      </a>
+      <a href="https://www.linkedin.com/in/gage-chambliss-24546622b/">
+        <img id="linkedin" src="/Assets/icons8-linkedin.svg" />
+      </a>
+      <a href="https://github.com/Gage-Dev">
+        <img id="github" src="/Assets/icons8-github.svg" />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
