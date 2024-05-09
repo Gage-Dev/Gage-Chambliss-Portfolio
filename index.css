@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 * {
   padding: 0;
@@ -8,7 +8,7 @@
 
 body {
   background-color: #121212;
-  font-family: 'Cabin';
+  font-family: "Cabin";
 }
 
 header {
@@ -58,7 +58,7 @@ header {
 }
 
 .nav-links a:hover::before {
-  width: 100%; 
+  width: 100%;
 }
 
 .nav-links li.active a {
@@ -75,7 +75,7 @@ header {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background-color: #4285F4;
+  background-color: #4285f4;
 }
 
 .showcase {
@@ -94,8 +94,8 @@ header {
   font-weight: 600;
   margin-right: 50px;
   margin-bottom: 50px;
-  color: #F4B400;
-  text-shadow: 4px 4px 0 #4285F4, 8px 8px 0 #34A853, 12px 12px 0 #E50914;
+  color: #f4b400;
+  text-shadow: 4px 4px 0 #4285f4, 8px 8px 0 #34a853, 12px 12px 0 #e50914;
 }
 
 .name-line {
@@ -112,7 +112,8 @@ header {
   transition: transform 0.3s ease;
 }
 
-.projects1, .projects2 {
+.projects1,
+.projects2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -121,7 +122,12 @@ header {
   transition: transform 0.3s ease;
 }
 
-.couchn, .tripp, .modrn, .gtv, .wave, .wheels {
+.couchn,
+.tripp,
+.modrn,
+.gtv,
+.wave,
+.wheels {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,7 +142,12 @@ header {
   text-decoration: none;
 }
 
-.couchn img, .tripp img, .modrn img, .gtv img, .wave img, .wheels img {
+.couchn img,
+.tripp img,
+.modrn img,
+.gtv img,
+.wave img,
+.wheels img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -151,7 +162,12 @@ header {
   margin-top: 60px;
 }
 
-.couchn:hover, .tripp:hover, .gtv:hover, .wave:hover, .wheels:hover, .modrn:hover {
+.couchn:hover,
+.tripp:hover,
+.gtv:hover,
+.wave:hover,
+.wheels:hover,
+.modrn:hover {
   transition: transform 0.3s ease;
   transform: scale(1.3);
 }
@@ -175,7 +191,7 @@ header {
   position: relative;
 }
 .more-projects::after {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   background-image: url(/Assets/icons8-arrow-30.png);
@@ -193,21 +209,35 @@ footer {
   background-color: #333;
 }
 
-#gmail, #linkedin, #github {
+#gmail,
+#linkedin,
+#github {
   margin: 20px;
 }
 
-#gmail:hover, #linkedin:hover, #github:hover {
+#gmail:hover,
+#linkedin:hover,
+#github:hover {
   transition: transform 0.3s ease;
   transform: scale(1.5);
 }
 
 @keyframes jump {
-  0% { transform: translateX(0) rotate(0); }
-  25% { transform: translateX(-5px) rotate(-10deg); }
-  50% { transform: translateX(5px) rotate(10deg); }
-  75% { transform: translateX(-2px) rotate(-5deg); }
-  100% { transform: translateX(0) rotate(0); }
+  0% {
+    transform: translateX(0) rotate(0);
+  }
+  25% {
+    transform: translateX(-5px) rotate(-10deg);
+  }
+  50% {
+    transform: translateX(5px) rotate(10deg);
+  }
+  75% {
+    transform: translateX(-2px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
 }
 
 .Gage {
@@ -215,7 +245,8 @@ footer {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
 
@@ -226,7 +257,7 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    font-family: 'Cabin';
+    font-family: "Cabin";
   }
 
   .Gage {

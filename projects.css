@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
 * {
   padding: 0;
@@ -8,126 +8,156 @@
 
 body {
   background-color: #121212;
-  font-family: 'Cabin';
+  font-family: "Cabin";
 }
 
 header {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 25px;
-  }
-  
-  .nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav-links li {
-    display: inline;
-    list-style-type: none;
-    padding: 4px;
-    margin: 8px;
-    font-size: 16px;
-    color: #ffff;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-  }
-  
-  .nav-links a {
-    font-size: 16px;
-    color: #ffff;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.3s;
-  }
-  
-  .nav-links a::before {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    height: 4px;
-    border-radius: 5px;
-    width: 0;
-    background-color: #ffff;
-    transition: width 0.2s ease;
-  }
-  
-  .nav-links a:hover::before {
-    width: 100%; 
-  }
-  
-  .nav-links li.active a {
-    position: relative;
-    text-decoration: none;
-    color: #ffff;
-  }
-  
-  .nav-links li.active a::after {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    width: 100%;
-    border-radius: 5px;
-    height: 4px;
-    background-color: #4285F4;
-  }
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px;
+}
 
-  h1 {
-    color: #ffff;
-    margin-top: 120px;
-    margin-bottom: 50px;
-    font-size: 50px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    animation: pulse 1s;
-  }
-  
-  .line-break {
-    margin: 0 auto;
-    background-color: #fff;
-    height: 6px;
-    border-radius: 5px;
-    width: 550px;
-  }
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  display: inline;
+  list-style-type: none;
+  padding: 4px;
+  margin: 8px;
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.nav-links a {
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  height: 4px;
+  border-radius: 5px;
+  width: 0;
+  background-color: #ffff;
+  transition: width 0.2s ease;
+}
+
+.nav-links a:hover::before {
+  width: 100%;
+}
+
+.nav-links li.active a {
+  position: relative;
+  text-decoration: none;
+  color: #ffff;
+}
+
+.nav-links li.active a::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  height: 4px;
+  background-color: #4285f4;
+}
+
+h1 {
+  color: #ffff;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  animation: pulse 1s;
+}
+
+.line-break {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 1px;
+  border-radius: 5px;
+  width: 550px;
+}
+
+.projects-container {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  transition: transform 0.3s ease;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #ffff;
+  border: none;
+}
 
 footer {
-    width: 100%;
-    margin-top: 265px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-  }
-  
-  #gmail, #linkedin, #github {
-    margin: 20px;
-  }
-  
-  #gmail:hover, #linkedin:hover, #github:hover {
-    transition: transform 0.3s ease;
-    transform: scale(1.5);
+  width: 100%;
+  margin-top: 265px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+
+#gmail,
+#linkedin,
+#github {
+  margin: 20px;
+}
+
+#gmail:hover,
+#linkedin:hover,
+#github:hover {
+  transition: transform 0.3s ease;
+  transform: scale(1.5);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
 
-  @keyframes pulse {
-    0% {
-     transform: scale(1);
-     opacity: 1;
-    }
-   
-   50% {
-     transform: scale(1.2);
-     opacity: 0.7;
-   }
-   
-    100% {
-     transform: scale(1);
-     opacity: 1;
-    }
-   }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

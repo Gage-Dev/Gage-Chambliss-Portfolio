@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   background-color: #121212;
-  font-family: 'Cabin';
+  font-family: "Cabin";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -58,7 +58,7 @@ header {
 }
 
 .nav-links a:hover::before {
-  width: 100%; 
+  width: 100%;
 }
 
 .nav-links li.active a {
@@ -75,7 +75,7 @@ header {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background-color: #34A853;
+  background-color: #34a853;
 }
 
 h1 {
@@ -91,7 +91,7 @@ h1 {
 .line-break {
   margin: 0 auto;
   background-color: #fff;
-  height: .5px;
+  height: 0.5px;
   border-radius: 5px;
   width: 85%;
 }
@@ -149,35 +149,39 @@ footer {
   align-items: center;
 }
 
-#gmail, #linkedin, #github {
+#gmail,
+#linkedin,
+#github {
   margin: 20px;
 }
 
-#gmail:hover, #linkedin:hover, #github:hover {
+#gmail:hover,
+#linkedin:hover,
+#github:hover {
   transition: transform 0.3s ease;
   transform: scale(1.5);
 }
 
 @keyframes pulse {
   0% {
-   transform: scale(1);
-   opacity: 1;
+    transform: scale(1);
+    opacity: 1;
   }
- 
- 50% {
-   transform: scale(1.2);
-   opacity: 0.7;
- }
- 
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+
   100% {
-   transform: scale(1);
-   opacity: 1;
+    transform: scale(1);
+    opacity: 1;
   }
- }
+}
 
 @media (max-width: 768px) {
   body {
-    font-family: 'Cabin';
+    font-family: "Cabin";
   }
 
   .image-container {
@@ -193,7 +197,7 @@ footer {
   }
 
   h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     letter-spacing: 1px;
     width: 80%;
