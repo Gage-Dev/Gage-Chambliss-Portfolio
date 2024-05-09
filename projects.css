@@ -162,6 +162,27 @@ footer {
   }
 }
 
+@media (max-width: 768px) {
+    body {
+      font-family: "Cabin";
+    }
+  
+    h1 {
+      max-width: 50%;
+      letter-spacing: -2px;
+    }
+  
+    .projects-container {
+      max-width: 91%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  
+    .line-break {
+      max-width: 80%;
+    }
+  }
+
 @media screen and (max-width: 768px) {
     .nav-links {
       display: none;
