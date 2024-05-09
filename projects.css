@@ -97,18 +97,10 @@ h1 {
 }
 
 .projects-container {
+  display: flex;
   max-width: 550px;
   margin: 0 auto;
   margin-bottom: 20px;
-  transition: transform 0.3s ease;
-}
-
-.projects {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 20px;
   transition: transform 0.3s ease;
 }
 
@@ -116,10 +108,17 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  background-color: #ffff;
   border: none;
+  color: #fff;
+  list-style-type: none;
+}
+
+ul li {
+  margin-top: 30px;
+}
+
+a {
+  color: #fff;
 }
 
 footer {
