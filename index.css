@@ -98,7 +98,7 @@ header {
   text-shadow: 4px 4px 0 #4285f4, 8px 8px 0 #34a853, 12px 12px 0 #e50914;
 }
 
-.name-line {
+.line-break {
   width: 550px;
   background-color: #ffff;
   height: 6px;
@@ -278,8 +278,12 @@ footer {
     margin-bottom: 20px;
   }
 
-  .name-line {
+  .line-break {
     max-width: 80%;
+  }
+
+  .more-projects {
+    width: 90%;
   }
 }
 
