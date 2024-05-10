@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
+:root {
+  --black: #121212;
+  --darkGray: #333;
+  --white: #ffff;
+  --blue: #4285f4;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +14,7 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: var(--black);
   font-family: "Cabin";
 }
 
@@ -30,7 +37,7 @@ header {
   padding: 4px;
   margin: 8px;
   font-size: 16px;
-  color: #ffff;
+  color: var(--white);
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -38,7 +45,7 @@ header {
 
 .nav-links a {
   font-size: 16px;
-  color: #ffff;
+  color: var(--white);
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -53,7 +60,7 @@ header {
   height: 4px;
   border-radius: 5px;
   width: 0;
-  background-color: #ffff;
+  background-color: var(--white);
   transition: width 0.2s ease;
 }
 
@@ -64,7 +71,7 @@ header {
 .nav-links li.active a {
   position: relative;
   text-decoration: none;
-  color: #ffff;
+  color: var(--white);
 }
 
 .nav-links li.active a::after {
@@ -75,7 +82,7 @@ header {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background-color: #4285f4;
+  background-color: var(--blue);
 }
 
 .project-container {
@@ -89,7 +96,7 @@ header {
 }
 
 h1 {
-  color: #ffff;
+  color: var(--white);
   margin-top: 120px;
   margin-bottom: 50px;
   font-size: 50px;
@@ -100,7 +107,7 @@ h1 {
 
 .line-break {
   margin: 0 auto;
-  background-color: #fff;
+  background-color: var(--white);
   height: 1px;
   border-radius: 5px;
   width: 550px;
@@ -110,14 +117,14 @@ h1 {
   display: flex;
   flex-direction: column;
   border: none;
-  color: #fff;
+  color: var(--white);
   list-style-type: none;
   text-align: left;
   margin: 30px 0 30px 0;
 }
 
 a {
-  color: #fff;
+  color: var(--white);
 }
 
 footer {
@@ -127,7 +134,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: var(--darkGray);
 }
 
 #gmail,
@@ -177,7 +184,7 @@ footer {
   .burger .line {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 5px;
     transition: transform 0.4s ease-in-out;
   }
@@ -202,7 +209,7 @@ footer {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: var(--darkGray);
     z-index: 999;
   }
 
@@ -233,7 +240,7 @@ footer {
     display: flex;
     flex-direction: column;
     border: none;
-    color: #fff;
+    color: var(--white);
     list-style-type: none;
     text-align: left;
     margin-left: 40px;

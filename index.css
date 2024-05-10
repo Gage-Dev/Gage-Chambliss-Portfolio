@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
 
+:root {
+  --black: #121212;
+  --darkGray: #333;
+  --white: #ffff;
+  --blue: #4285f4;
+  --yellow: #f4b400;
+  --red: #e50914;
+  --green: #34a853;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +17,7 @@
 }
 
 body {
-  background-color: #121212;
+  background-color: var(--black);
   font-family: "Cabin";
 }
 
@@ -30,7 +40,7 @@ header {
   padding: 4px;
   margin: 8px;
   font-size: 16px;
-  color: #ffff;
+  color: var(--white);
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -38,7 +48,7 @@ header {
 
 .nav-links a {
   font-size: 16px;
-  color: #ffff;
+  color: var(--white);
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -53,7 +63,7 @@ header {
   height: 4px;
   border-radius: 5px;
   width: 0;
-  background-color: #ffff;
+  background-color: var(--white);
   transition: width 0.2s ease;
 }
 
@@ -64,7 +74,7 @@ header {
 .nav-links li.active a {
   position: relative;
   text-decoration: none;
-  color: #ffff;
+  color: var(--white);
 }
 
 .nav-links li.active a::after {
@@ -75,7 +85,7 @@ header {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background-color: #4285f4;
+  background-color: var(--blue);
 }
 
 .showcase {
@@ -94,13 +104,13 @@ header {
   font-weight: 600;
   margin-right: 50px;
   margin-bottom: 50px;
-  color: #f4b400;
-  text-shadow: 4px 4px 0 #4285f4, 8px 8px 0 #34a853, 12px 12px 0 #e50914;
+  color: var(--yellow);
+  text-shadow: 4px 4px 0 var(--blue), 8px 8px 0 var(--green), 12px 12px 0 var(--red);
 }
 
 .line-break {
   width: 550px;
-  background-color: #ffff;
+  background-color: var(--white);
   height: 6px;
   border-radius: 5px;
 }
@@ -133,7 +143,7 @@ header {
   align-items: center;
   width: 50px;
   height: 50px;
-  background-color: #ffff;
+  background-color: var(--white);
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -154,7 +164,7 @@ header {
 
 .link-label {
   position: absolute;
-  color: #ffff;
+  color: var(--white);
   font-weight: bold;
   text-align: center;
   display: inline-block;
@@ -182,7 +192,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   color: #121212;
-  background-color: #fff;
+  background-color: var(--white);
   padding: 18px 40px 18px 40px;
   border-radius: 10px;
   display: inline-flex;
@@ -193,8 +203,8 @@ header {
 }
 
 .more-projects:hover {
-  background-color: #4285f4;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .more-projects::after {
@@ -213,7 +223,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: var(--darkGray);
 }
 
 #gmail,
@@ -300,7 +310,7 @@ footer {
   .burger .line {
     width: 25px;
     height: 3px;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 5px;
     transition: transform 0.4s ease-in-out;
   }
@@ -325,7 +335,7 @@ footer {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: var(--darkGray);
     z-index: 999;
   }
 
