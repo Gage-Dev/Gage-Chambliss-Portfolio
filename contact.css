@@ -16,10 +16,10 @@
 
 body {
   background-color: var(--black);
-  font-family: "Cabin";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   color: var(--white);
+  font-family: "Cabin";
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 header {
