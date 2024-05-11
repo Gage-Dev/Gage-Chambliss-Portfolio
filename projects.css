@@ -5,6 +5,7 @@
   --darkGray: #333;
   --white: #ffff;
   --blue: #4285f4;
+  --red: #e50914;
 }
 
 * {
@@ -82,7 +83,10 @@ header {
   width: 100%;
   border-radius: 5px;
   height: 4px;
-  background-color: var(--blue);
+}
+
+.back-home-btn {
+  color: var(--white);
 }
 
 .project-container {
