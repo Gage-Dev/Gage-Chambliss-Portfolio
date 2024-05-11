@@ -327,6 +327,10 @@ footer {
     width: 90%;
     margin-top: 30px;
   }
+
+  footer {
+    margin-top: 220px;
+  }
 }
 
 @media screen and (max-width: 768px) {
