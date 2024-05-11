@@ -105,7 +105,8 @@ header {
   margin-right: 50px;
   margin-bottom: 50px;
   color: var(--yellow);
-  text-shadow: 4px 4px 0 var(--blue), 8px 8px 0 var(--green), 12px 12px 0 var(--red);
+  text-shadow: 4px 4px 0 var(--blue), 8px 8px 0 var(--green),
+    12px 12px 0 var(--red);
 }
 
 .line-break {
@@ -169,7 +170,7 @@ header {
   text-align: center;
   display: inline-block;
   white-space: nowrap;
-  margin-top: 60px;
+  margin-top: 90px;
 }
 
 .couchn:hover,
@@ -293,27 +294,38 @@ footer {
   }
 
   .couchn,
-.tripp,
-.modrn,
-.gtv,
-.wave,
-.wheels {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: var(--white);
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  margin: 25px;
-  text-align: center;
-  text-decoration: none;
-}
+  .tripp,
+  .modrn,
+  .gtv,
+  .wave,
+  .wheels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--white);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .link-label {
+    position: absolute;
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    margin-top: 60px;
+  }
 
   .more-projects {
     width: 90%;
+    margin-top: 30px;
   }
 }
 
