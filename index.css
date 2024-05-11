@@ -109,7 +109,7 @@ header {
 }
 
 .line-break {
-  width: 550px;
+  width: 480px;
   background-color: var(--white);
   height: 1px;
   border-radius: 5px;
