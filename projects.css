@@ -44,7 +44,6 @@ header {
 }
 
 .nav-links a {
-  font-size: 16px;
   color: var(--white);
   text-decoration: none;
   cursor: pointer;
@@ -55,7 +54,7 @@ header {
 .nav-links a::before {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: -10px;
   left: 0;
   height: 4px;
   border-radius: 5px;
@@ -77,15 +76,11 @@ header {
 .nav-links li.active a::after {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: -10px;
   left: 0;
   width: 100%;
   border-radius: 5px;
   height: 4px;
-}
-
-.back-home-btn {
-  color: var(--white);
 }
 
 .project-container {
@@ -95,7 +90,6 @@ header {
   max-width: 550px;
   margin: 0 auto;
   margin-bottom: 20px;
-  transition: transform 0.3s ease;
 }
 
 h1 {
@@ -109,8 +103,8 @@ h1 {
 }
 
 .line-break {
-  margin: 0 auto;
   background-color: var(--white);
+  margin: 0 auto;
   height: 1px;
   border-radius: 5px;
   width: 550px;
@@ -131,13 +125,13 @@ a {
 }
 
 footer {
-  width: 100%;
-  margin-top: 265px;
-  text-align: center;
+  background-color: var(--darkGray);
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--darkGray);
+  width: 100%;
+  margin-top: 265px;
+  text-align: center;
 }
 
 #gmail,
