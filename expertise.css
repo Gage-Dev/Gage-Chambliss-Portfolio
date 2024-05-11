@@ -122,9 +122,10 @@ h3 {
 .image-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
 }
 
 .small-image {
@@ -194,7 +195,7 @@ footer {
   .image-container {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
   }
 
   .small-image {
