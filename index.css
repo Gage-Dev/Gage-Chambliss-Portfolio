@@ -57,7 +57,7 @@ header {
 .nav-links a::before {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: -10px;
   left: 0;
   height: 4px;
   border-radius: 5px;
@@ -79,7 +79,7 @@ header {
 .nav-links li.active a::after {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: -10px;
   left: 0;
   width: 100%;
   border-radius: 5px;
