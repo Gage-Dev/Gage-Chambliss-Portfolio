@@ -357,4 +357,8 @@ footer {
   .nav-links.active li {
     margin: 15px 0;
   }
+
+  .other-projects-container {
+    margin-top: 50px;
+  }
 }
