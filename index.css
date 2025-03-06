@@ -395,16 +395,16 @@ footer {
   }
 
   .other-projects-btn {
-    width: 90%;
+    width: 80%;
   }
 
   .projects-container {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .projects {
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
   }
 
   .other-projects-container {
