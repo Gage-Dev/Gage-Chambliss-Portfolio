@@ -168,7 +168,7 @@ header {
 .other-projects-container {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .other-projects-btn {
@@ -180,9 +180,10 @@ header {
   border-radius: 10px;
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   transition: background-color 0.3s ease;
+  width: 500px;
 }
 
 .other-projects-btn:hover {
@@ -312,6 +313,37 @@ footer {
   }
 }
 
+@media screen and (min-width: 469px) and (max-width: 1024px) {
+  .line-break {
+    width: 50%;
+  }
+
+  .other-projects-btn {
+    width: 60%;
+  }
+
+  .projects-container {
+    max-width: 80%;
+  }
+
+  .projects {
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .tripp,
+  .modrn,
+  .gtv {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+  }
+
+  .link-label {
+    margin-top: 70px; /* Adjust label position */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-links {
     display: none;
@@ -356,6 +388,23 @@ footer {
 
   .nav-links.active li {
     margin: 15px 0;
+  }
+
+  .line-break {
+    width: 80%;
+  }
+
+  .other-projects-btn {
+    width: 90%;
+  }
+
+  .projects-container {
+    max-width: 90%;
+  }
+
+  .projects {
+    justify-content: center;
+    gap: 20px;
   }
 
   .other-projects-container {
