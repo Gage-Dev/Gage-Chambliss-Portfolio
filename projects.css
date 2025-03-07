@@ -265,7 +265,7 @@ footer {
     text-align: center;
     margin-left: 0px;
     font-size: 16px;
-    padding: 5px;
+    padding: 20px 5px 20px 5px;
   }
   
   .project-items ul {
@@ -273,7 +273,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
   }
   
   .ext-projects {
