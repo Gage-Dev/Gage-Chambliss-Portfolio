@@ -117,9 +117,24 @@ h1 {
   color: var(--white);
   list-style-type: none;
   text-align: left;
-  margin: 30px 0 30px 0;
+  margin-top: 50px;
   font-size: 18px;
   font-weight: bold;
+  background-color: rgb(47, 84, 219);
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+.project-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ext-projects {
+  text-decoration: none;
 }
 
 a {
@@ -220,7 +235,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 550px;
+    max-width: 100%;
     margin: 0 auto;
     margin-bottom: 20px;
     transition: transform 0.3s ease;
@@ -241,8 +256,22 @@ footer {
     border: none;
     color: var(--white);
     list-style-type: none;
-    text-align: left;
-    margin-left: 40px;
-    font-size: 18px;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .project-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .ext-projects {
+    text-decoration: none;
+    width: 35%;
   }
 }
