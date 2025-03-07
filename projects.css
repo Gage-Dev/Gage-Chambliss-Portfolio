@@ -16,6 +16,9 @@
 body {
   background-color: var(--black);
   font-family: "Cabin";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -83,6 +86,10 @@ header {
   height: 4px;
 }
 
+.content {
+  flex: 1;
+}
+
 .project-container {
   display: flex;
   justify-content: center;
@@ -147,7 +154,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 265px;
   text-align: center;
 }
 
@@ -273,5 +279,9 @@ footer {
   .ext-projects {
     text-decoration: none;
     width: 35%;
+  }
+
+  footer {
+    margin-top: 100px;
   }
 }

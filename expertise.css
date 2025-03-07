@@ -15,6 +15,9 @@
 body {
   background-color: #121212;
   font-family: "Cabin";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -80,6 +83,10 @@ header {
   border-radius: 5px;
   height: 4px;
   background-color: var(--green);
+}
+
+main {
+  flex: 1;
 }
 
 h1 {

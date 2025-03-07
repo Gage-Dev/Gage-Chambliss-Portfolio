@@ -18,8 +18,9 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-family: "Cabin";
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -87,6 +88,10 @@ header {
   background-color: var(--yellow);
 }
 
+main {
+  flex: 1;
+}
+
 h1 {
   color: var(--white);
   text-align: center;
@@ -151,7 +156,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: var(--darkGray);
 }
 
@@ -229,6 +234,10 @@ footer {
     order: 2;
     transform-style: preserve-3d;
     animation: movePerspective 2s ease-in-out infinite alternate;
+  }
+
+  footer {
+    margin-top: 100px;
   }
 }
 

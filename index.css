@@ -19,6 +19,9 @@
 body {
   background-color: var(--black);
   font-family: "Cabin";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -85,6 +88,10 @@ header {
   border-radius: 5px;
   height: 4px;
   background-color: var(--blue);
+}
+
+main {
+  flex: 1;
 }
 
 .showcase {
@@ -185,6 +192,7 @@ header {
   position: relative;
   transition: background-color 0.3s ease;
   width: 500px;
+  margin-bottom: 120px;
 }
 
 .other-projects-btn:hover {
@@ -203,12 +211,12 @@ header {
 
 footer {
   width: 100%;
-  margin-top: 265px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--darkGray);
+  margin-top: 0;
 }
 
 #gmail,
@@ -307,10 +315,6 @@ footer {
   .other-projects-btn {
     width: 80%;
     margin-top: 30px;
-  }
-
-  footer {
-    margin-top: 220px;
   }
 }
 
