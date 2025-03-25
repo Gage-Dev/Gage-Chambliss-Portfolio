@@ -170,7 +170,7 @@ main {
   text-align: center;
   display: inline-block;
   white-space: nowrap;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .other-projects-container {
@@ -345,7 +345,7 @@ footer {
   }
 
   .link-label {
-    margin-top: 70px; /* Adjust label position */
+    margin-top: 70px;
   }
 }
 
