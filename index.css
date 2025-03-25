@@ -116,14 +116,14 @@ main {
 }
 
 .line-break {
-  width: 500px;
+  width: 50%;
   background-color: var(--white);
-  height: 1px;
+  height: 2px;
   border-radius: 5px;
 }
 
 .projects-container {
-  max-width: 550px;
+  max-width: 50%;
   margin: 0 auto;
   margin-bottom: 20px;
   transition: transform 0.3s ease;
@@ -276,7 +276,7 @@ footer {
   }
 
   .projects-container {
-    max-width: 100%;
+    max-width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
   }

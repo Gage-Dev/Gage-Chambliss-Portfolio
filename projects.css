@@ -112,7 +112,7 @@ h1 {
 .line-break {
   background-color: var(--white);
   margin: 0 auto;
-  height: 1px;
+  height: 2px;
   border-radius: 5px;
   width: 550px;
 }
